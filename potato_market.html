@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Potato Marketplace</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fffdf8;
+        color: #3e2f1c;
+    }
+
+    header {
+        background: #8b5a2b; /* brown */
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background: #b17432;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 40px 20px;
+        background: #fff7ea; /* soft potato white */
+    }
+
+    .hero h1 {
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+
+    .market {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .item {
+        background: white;
+        border: 2px solid #8b5a2b;
+        border-radius: 10px;
+        width: 260px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .item img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #b17432;
+    }
+
+    .item button {
+        background: #8b5a2b;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .item button:hover {
+        background: #734821;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #8b5a2b;
+        color: white;
+        margin-top: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🥔 Potato Marketplace</h1>
+    <p>Your one-stop shop for premium potatoes.</p>
+</header>
+
+<nav>
+    <a href="#market">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Fresh, Organic Potatoes Delivered to You</h1>
+    <p>Choose from a variety of high-quality potatoes straight from the farm.</p>
+</section>
+
+<section id="market" class="market">
+
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Various_potatoes.jpg" alt="Potatoes">
+        <h2>Russet Potatoes</h2>
+        <p>Perfect for baking, frying, and mashing.</p>
+        <strong>$4.99 / 5 lb bag</strong><br><br>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Red_potatoes.jpg" alt="Red Potatoes">
+        <h2>Red Potatoes</h2>
+        <p>Great for salads and roasting.</p>
+        <strong>$5.49 / 5 lb bag</strong><br><br>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Yellow_potatoes.jpg" alt="Yellow Potatoes">
+        <h2>Yellow Potatoes</h2>
+        <p>Rich, buttery flavor.</p>
+        <strong>$5.99 / 5 lb bag</strong><br><br>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Purple_potatoes.jpg" alt="Purple Potatoes">
+        <h2>Purple Potatoes</h2>
+        <p>Earthy and full of antioxidants.</p>
+        <strong>$6.49 / 5 lb bag</strong><br><br>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<section id="about" style="padding: 30px; text-align: center;">
+    <h2>About Our Farm</h2>
+    <p>We are a family-owned potato farm with over 40 years of experience growing healthy,
+       natural, and chemical-free potatoes.</p>
+</section>
+
+<section id="contact" style="padding: 30px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>Email: support@potatomarket.example<br>
+       Phone: (555) 123-4567</p>
+</section>
+
+<footer>
+    © 2025 Potato Marketplace — All Rights Reserved.
+</footer>
+
+</body>
+</html>
